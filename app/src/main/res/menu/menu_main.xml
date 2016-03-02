@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+
+    <item
+
+        android:id="@+id/action_search"
+        android:orderInCategory="80"
+        android:title="搜索"
+        android:icon="@drawable/search"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:icon="@drawable/share"
+        android:id="@+id/action_share"
+        android:orderInCategory="90"
+        android:title="分享"
+        app:showAsAction="ifRoom"/>
+
+</menu>
